@@ -116,8 +116,13 @@ Then you must check the members Properties by click on “show properties”
 We need to use the email_address, status, and merge_fields.
 This is javascript code.
 
+
+![image](https://user-images.githubusercontent.com/51037193/140787310-655224b8-f2c4-4471-8813-8eb715a11dae.png)
+
+
+
+
 app.post("/" , function(req , res){
-                                                   ![image](https://user-images.githubusercontent.com/51037193/140786891-595475b2-230c-48e8-bc62-f0d83228c38f.png)
 
     const firstName = req.body.Fname
     const lastname = req.body.Lname
@@ -135,6 +140,7 @@ app.post("/" , function(req , res){
             }
         ]
     };
+
 
 If you want to check the marge fields 
 1-	Audience.
